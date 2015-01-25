@@ -1,3 +1,19 @@
 body {
 	padding-top: 8rem;
 }
+
+a.hidden-link {
+	color: inherit;
+}
+
+a.hidden-link:hover,
+a.hidden-link:focus,
+a.hidden-link:visited {
+	color: inherit;
+}
+
+.full-page {
+	position: relative;
+	background-color: blue;
+	height: 100%;
+}

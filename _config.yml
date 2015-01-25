@@ -13,3 +13,4 @@ collections:
     output: true
     title: trombone
     permalink: /trombone/:path/
+textile_ext: "textile,txtl,tl"
