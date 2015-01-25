@@ -1,0 +1,27 @@
+---
+title: About Brian
+layout: nosidebar
+---
+
+
+<div class="row-fluid full-panel">
+	<div class="col-sm-6">
+		<div class="col-sm-12"><a href="#trombone">Trombonist</a></div>
+		<div class="col-sm-12">
+		{% capture include_to_textilize %}
+		{% include bs-trombone-bio.textile %}
+		{% endcapture %}
+		{{ include_to_textilize | textilize }}
+		</div>
+	</div>
+
+	<div class="col-sm-6">
+		<div class="col-sm-12"><a href="#code">Technologist</a></div>
+		<div class="col-sm-12">
+		{% capture include_to_textilize %}
+		{% include bs-tech-bio.textile %}
+		{% endcapture %}
+		{{ include_to_textilize | textilize }}
+		</div>
+	</div>
+</div>

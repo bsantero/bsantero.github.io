@@ -17,3 +17,11 @@ a.hidden-link:visited {
 	background-color: blue;
 	height: 100%;
 }
+
+a.active,
+a.active:hover,
+a.active:focus,
+a.active:visited {
+	background-color: #777;
+	color: #FFF !important;
+}
