@@ -13,4 +13,8 @@ collections:
     output: true
     title: trombone
     permalink: /trombone/:path/
+  portfolio:
+    output: true
+    title: portfolio
+    permalink: /portfolio/:path/
 textile_ext: "textile,txtl,tl"

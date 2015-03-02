@@ -1,0 +1,10 @@
+---
+title: Portfolio
+layout: default
+---
+
+{% assign port = site.portfolio | sort:"weight"  %}
+{% for p in port %}
+<div>{{ p.title }}</div>
+<p>{{ p.content }}</p>
+{% endfor %}
