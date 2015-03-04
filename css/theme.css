@@ -103,6 +103,11 @@ a:focus {
 	color: black;
 }
 
+.bio-active {
+	color: white;
+	background-color: #385DC2;
+}
+
 .bio-container {
 	overflow: hidden;
 }
