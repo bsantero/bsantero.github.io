@@ -1,5 +1,6 @@
 body,
 .pure-g,
+.pure-menu-list,
 p {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
 }
@@ -52,6 +53,10 @@ div#content {
 
 .pad-h-1 {
 	margin: 0 1rem;
+}
+
+.clickable:hover {
+	cursor: pointer;
 }
 
 a.hidden-link {
