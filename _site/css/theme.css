@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6,
 	letter-spacing: -1px;
 }
 
+ul.pure-menu-children {
+	border: 1px solid #DDD;
+}
+
 .menu-center-50 {
 	margin: auto;
 	text-align: center;
