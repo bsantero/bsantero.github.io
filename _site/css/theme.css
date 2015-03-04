@@ -1,27 +1,99 @@
 body {
-	padding-top: 8rem;
+	/*padding-top: 8rem;*/
+}
+
+h1.site-title {
+	text-align: center;
+	font-size: 5rem;
+	letter-spacing: 3px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.header-font {
+	font-family: 'discoregular', Arial, Helvetica, sans;
+	letter-spacing: -1px;
+}
+
+.menu-center-50 {
+	margin: auto;
+	text-align: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.no-decor {
+	list-style: none;
+	padding: 0;
+}
+
+.no-decor li {
+	padding: .25rem 0;
+}
+
+div#content {
+	padding-top: 1rem;
+}
+
+.pure-g .pure-gutter-1 > * {
+	margin: 1rem;
 }
 
 a.hidden-link {
 	color: inherit;
 }
 
+a.hidden-link:visited
 a.hidden-link:hover,
-a.hidden-link:focus,
-a.hidden-link:visited {
+a.hidden-link:focus {
 	color: inherit;
 }
 
-.full-page {
-	position: relative;
-	background-color: blue;
-	height: 100%;
+a.active:link,
+a.active:visited,
+a.active:hover,
+a.active:active,
+a.active:focus {
+	background-color: #777 !important;
+	color: #FFF !important;
 }
 
-a.active,
-a.active:hover,
-a.active:focus,
-a.active:visited {
-	background-color: #777;
-	color: #FFF !important;
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+	color: black;
+}
+
+.blog-item-link a {
+	text-decoration: none;
+}
+
+.portfolio-figure {
+	margin: 1rem auto !important;
+	text-align: center;
+}
+
+.portfolio-figure img {
+	width: 75%;
+	margin: auto;
+}
+
+.portfolio-figure figcaption {
+	font-size: 3rem;
+}
+
+.portfolio-figure a:link,
+.portfolio-figure a:visited,
+.portfolio-figure a:hover,
+.portfolio-figure a:active,
+.portfolio-figure a:focus {
+	color: black;
+	text-decoration: none;
+}
+
+.portfolio-desc {
+	text-align: center;
 }

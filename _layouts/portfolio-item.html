@@ -1,1 +1,15 @@
-{{ content }}
+{% include header.html %}
+
+<div class="pure-u-1" id="content">
+	<figure class="portfolio-figure pure-u-1">
+		<a href="{{page.link}}">
+		  <figcaption class="header-font">{{page.title}}</figcaption>
+		  <img src="{{page.image}}" alt="{{page.title}}" class="pure-img">
+		</a>
+	</figure>
+</div>
+<div class="pure-u-1 portfolio-desc">
+	{{ page.content }}
+</div>
+
+{% include footer.html %}
