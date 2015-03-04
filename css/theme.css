@@ -1,6 +1,6 @@
 body,
 .pure-g,
-*:not(.fa):not(.site-title):not(.header-font) {
+p {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
 }
 
@@ -91,10 +91,6 @@ a:focus {
   animation: wrench 1.2s ease infinite;	
 }
 
-.bs-shake {
-	/*-webkit-animation: wrench 1.2s ease infinite;
-  animation: wrench 1.2s ease infinite; */
-}
 
 .post-date {
 	color: #C21A17;
@@ -106,7 +102,7 @@ a:focus {
 }
 
 .portfolio-figure img {
-	width: 75%;
+	width: 50%;
 	margin: auto;
 }
 
