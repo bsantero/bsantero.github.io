@@ -91,6 +91,11 @@ a:focus {
 	text-decoration: none;
 }
 
+.animate-child i.fa {
+	margin-left: .3rem;
+	font-size: .75em;
+}
+
 .animate-child:hover i.fa {
 	-webkit-animation: wrench 1.2s ease infinite;
   animation: wrench 1.2s ease infinite;	
