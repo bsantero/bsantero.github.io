@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	console.log("JS loaded");
 
-$(".bio").addClass("hidden");
+$("#tech-bio").addClass("hidden");
 
 
 /* About Page */
