@@ -6,8 +6,8 @@ layout: with-sidebar
 {% for post in site.posts limit: 5 %}
 	<!-- <div class="pure-u-1"> -->
 		<div class="pure-u-1 pure-gutter-1">
-				<h1 class="blog-item-link"><a href="{{ post.url }}">{{ post.title }} <i class="fa fa-link"></i></a></h1>
-				<h4>{{ post.date | date_to_long_string }}</h4>
+				<h1 class="blog-item-link faa-parent"><a href="{{ post.url }}">{{ post.title }} <i class="fa fa-link"></i></a></h1>
+				<h4 class="post-date">{{ post.date | date_to_long_string }}</h4>
 				<p>{{ post.content | truncatewords: 50}} <a href="{{ post.url }}">Continued</a></p>
 		</div>
 	<!-- </div> -->

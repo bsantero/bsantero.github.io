@@ -44,8 +44,17 @@ div#content {
 	margin: 1rem;
 }
 
+.pad-v-1 {
+	margin: 1rem 0;
+}
+
+.pad-h-1 {
+	margin: 0 1rem;
+}
+
 a.hidden-link {
 	color: inherit;
+	text-decoration: none;
 }
 
 a.hidden-link:visited
@@ -59,7 +68,7 @@ a.active:visited,
 a.active:hover,
 a.active:active,
 a.active:focus {
-	background-color: #777 !important;
+	background-color: #C21A17 !important;
 	color: #FFF !important;
 }
 
@@ -73,6 +82,10 @@ a:focus {
 
 .blog-item-link a {
 	text-decoration: none;
+}
+
+.post-date {
+	color: #C21A17;
 }
 
 .portfolio-figure {
