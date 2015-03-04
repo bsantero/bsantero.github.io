@@ -84,6 +84,11 @@ a:focus {
 	text-decoration: none;
 }
 
+.bs-shake {
+	-webkit-animation: wrench 1.2s ease infinite;
+  animation: wrench 1.2s ease infinite;
+}
+
 .post-date {
 	color: #C21A17;
 }

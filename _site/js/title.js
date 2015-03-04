@@ -3,10 +3,9 @@ $(document).ready(function(){
 
 	$(".faa-parent").hover(
 		function() {
-			console.log($(this).children(".fa"));//.removeClass("fa-spin");
-			// $(this).$("i.fa").addClass("fa-spin");
+			$(this).find("i.fa").addClass("bs-shake");
 		},
 		function() {
-			console.log($(this).$("i.fa"));//.removeClass("fa-spin");
+			$(this).find("i.fa").removeClass("bs-shake");
 		});
 });
