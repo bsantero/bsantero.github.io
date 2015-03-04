@@ -103,6 +103,10 @@ a:focus {
 	color: black;
 }
 
+.bio-container {
+	overflow: hidden;
+}
+
 .bio-img {
 	max-width: 40%;
 }
