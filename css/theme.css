@@ -30,6 +30,22 @@ ul.pure-menu-children {
 	text-align: center;
 }
 
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.pad-left {
+	margin-left: 1rem;
+}
+
+.pad-right {
+	margin-right: 1rem;
+}
+
 .no-decor {
 	list-style: none;
 	padding: 0;
@@ -87,6 +103,10 @@ a:focus {
 	color: black;
 }
 
+.bio-img {
+	max-width: 40%;
+}
+
 .blog-item-link a {
 	text-decoration: none;
 }
@@ -100,7 +120,6 @@ a:focus {
 	-webkit-animation: wrench 1.2s ease infinite;
   animation: wrench 1.2s ease infinite;	
 }
-
 
 .post-date {
 	color: #C21A17;

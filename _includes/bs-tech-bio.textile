@@ -1,8 +1,4 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at leo id quam aliquet vestibulum. Aenean quis neque sit amet quam vehicula ornare in in enim. Quisque mollis, eros sit amet gravida tincidunt, ligula tortor imperdiet ex, in auctor leo purus quis libero. Suspendisse id arcu porttitor, aliquet diam sit amet, consequat enim. Sed sollicitudin, erat eget interdum luctus, lorem justo porttitor leo, et fringilla eros dolor vitae metus. Suspendisse potenti.
+As a non-classically trained newcomer to the tech field, Brian has distinguished himself as a quick-learning, motivated, snazzy, buzz-worded worker. Ever since his brother "Chris Santero":github.com/csantero helped him build his first computer, Brian has been insatiably curious in the ways of hardware and gadgetry.
 
-Cras fringilla dui ex, sit amet sagittis metus sagittis at. Integer ut facilisis nisi. Cras vulputate ultrices lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris massa turpis, volutpat sit amet enim at, vulputate vestibulum nibh. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-
-Praesent placerat sapien vel ultricies venenatis. Donec suscipit luctus dolor, iaculis pellentesque justo lacinia id. Curabitur sed pharetra orci. Aliquam dignissim felis posuere urna pharetra commodo. Nulla consectetur augue dolor, non porta neque posuere ac. Duis scelerisque lectus eu risus molestie tempor.
-
-Morbi nec fringilla magna, ut laoreet purus. Ut vitae tortor ac tortor tincidunt finibus. Fusce fermentum in nisi id vestibulum. Fusce ac rhoncus risus. Etiam pretium sodales libero, a placerat massa. Nam a pulvinar ex, eu laoreet tellus. In interdum sit amet turpis in cursus.
+Although a recent injectee into the scene, Brian has found ways to create his own niches, whether it be through site-building, theming, and JS programming, or through audio engineering, video production, and editing.
 
