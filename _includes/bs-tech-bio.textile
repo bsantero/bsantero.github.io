@@ -1,4 +1,4 @@
-As a non-classically trained newcomer to the tech field, Brian has distinguished himself as a quick-learning, motivated, snazzy, buzz-worded worker. Ever since his brother "Chris Santero":github.com/csantero helped him build his first computer, Brian has been insatiably curious in the ways of hardware and gadgetry.
+As a non-classically trained newcomer to the tech field, Brian has distinguished himself as a quick-learning, motivated, snazzy, buzz-worded worker. Ever since his brother "Chris Santero":http://github.com/csantero helped him build his first computer, Brian has been insatiably curious in the ways of hardware and gadgetry.
 
 Although a recent injectee into the scene, Brian has found ways to create his own niches, whether it be through site-building, theming, and JS programming, or through audio engineering, video production, and editing.
 
