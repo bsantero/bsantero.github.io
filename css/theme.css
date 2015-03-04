@@ -84,9 +84,14 @@ a:focus {
 	text-decoration: none;
 }
 
-.bs-shake {
+.animate-child:hover i.fa {
 	-webkit-animation: wrench 1.2s ease infinite;
-  animation: wrench 1.2s ease infinite;
+  animation: wrench 1.2s ease infinite;	
+}
+
+.bs-shake {
+	/*-webkit-animation: wrench 1.2s ease infinite;
+  animation: wrench 1.2s ease infinite; */
 }
 
 .post-date {
