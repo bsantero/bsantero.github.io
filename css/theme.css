@@ -46,6 +46,24 @@ ul.pure-menu-children {
 	margin-right: 1rem;
 }
 
+.fixed-top-right {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.contact-toggle {
+	padding: 1rem 1.25rem;
+	margin: .2rem;
+	border: 3px solid;
+	border-color: #DDD;
+}
+
+.contact-toggle:hover {
+	border-color: #AAA;
+}
+
+
 .no-decor {
 	list-style: none;
 	padding: 0;
