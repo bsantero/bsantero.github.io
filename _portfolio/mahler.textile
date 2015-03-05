@@ -1,5 +1,5 @@
 ---
-title: Mahler Toolbox
+title: Mahler Box
 layout: portfolio-item
 link: http://briansantero.com/mahler
 image: /assets/images/Mahler-thumbnail.png
