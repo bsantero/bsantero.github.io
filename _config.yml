@@ -1,20 +1,17 @@
 name: "Brian Santero"
-description: "Trombonist and technologist, Brian Santero is always looking for excellent ways to express himself creatively."
+description: "As trombonist and technologist, Brian Santero is always looking for excellent ways to express himself creatively."
 url: "http://localhost:4000"
 paginate: 10
 markdown: kramdown
+kramdown:
+  input: GFM
 permalink: pretty
 collections:
   hidden:
     output: true
     title: Hidden
     permalink: /behind/the/:path/
-  trombone:
-    output: true
-    title: trombone
-    permalink: /trombone/:path/
   portfolio:
     output: true
     title: portfolio
     permalink: /portfolio/:path/
-textile_ext: "textile,txtl,tl"

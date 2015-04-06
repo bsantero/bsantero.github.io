@@ -1,14 +1,12 @@
+/* Resets */
+
+/* Typography and Header Styling */
+
 body,
 .pure-g,
 .pure-menu-list,
 p {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
-}
-
-h1.site-title {
-	text-align: center;
-	font-size: 4rem;
-	letter-spacing: -2px;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -17,153 +15,239 @@ h1, h2, h3, h4, h5, h6,
 	letter-spacing: -1px;
 }
 
-ul.pure-menu-children {
-	border: 1px solid #DDD;
-}
-
-.menu-center-50 {
-	margin: auto;
+.site-title {
 	text-align: center;
+	font-size: 4rem;
+	letter-spacing: -2px;
 }
 
-.text-center {
-	text-align: center;
+/* Helper Classes */
+		.no-margin {
+			margin: 0;
+		}
+
+		.margin-auto {
+			margin: auto;
+		}
+
+		.text-center {
+			text-align: center;
+		}
+
+		.float-left {
+			float: left;
+		}
+
+		.float-right {
+			float: right;
+		}
+
+		.pad-left {
+			margin-left: 1rem;
+		}
+
+		.pad-right {
+			margin-right: 1rem;
+		}
+
+		.pure-g .pure-gutter-1 > *:not(.no-gutter) {
+			margin-left: 1rem;
+			margin-right: 1rem;
+		}
+
+		.pad-v-1 {
+			margin-top: 1rem !important;
+			margin-bottom: 1rem !important;
+		}
+
+		.pad-h-1 {
+			margin-left: 1rem !important;
+			margin-right: 1rem !important;
+		}
+
+		.fixed-top-right {
+			position: fixed;
+			top: 0;
+			right: 0;
+		}
+
+		.no-decor {
+			list-style: none;
+			padding: 0;
+		}
+
+		.no-decor li {
+			padding: .25rem 0;
+		}
+
+		.clickable:hover {
+			cursor: pointer;
+		}
+
+/* Specific Elements */
+
+		.preload * {
+			-webkit-transition: none !important;
+			-moz-transition: none !important;
+			-ms-transition: none !important;
+			-o-transition: none !important;
+			transition: none !important;
+		}
+
+		.page-content {
+			padding-top: 1rem;
+			max-width: 1500px;
+			margin: auto;
+		}
+
+		.page-content > h1:first-child {
+			margin-bottom: 2rem;
+		}
+
+		.sidebar-right {
+			text-align: center;
+		}
+
+		.pure-menu-children {
+			border: 1px solid #DDD;
+		}
+
+		.contact-toggle {
+			padding: 1rem 1.25rem;
+			margin: .2rem;
+			border: 3px solid;
+			color: #AAA;
+			border-color: #AAA;
+			transition: .3s ease-out;
+		}
+
+		.contact-toggle:hover {
+			border-color: #C21A17;
+			color: #C21A17;
+		}
+
+		.contact-toggle.active {
+			border-color: #C21A17;
+			background-color: #C21A17;
+			color: white;
+		}
+
+		a.hidden-link {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		a.hidden-link:visited
+		a.hidden-link:hover,
+		a.hidden-link:focus {
+			color: inherit;
+		}
+
+		a.active:link,
+		a.active:visited,
+		a.active:hover,
+		a.active:active,
+		a.active:focus {
+			background-color: #C21A17 !important;
+			color: #FFF !important;
+		}
+
+		a:link,
+		a:visited,
+		a:hover,
+		a:active,
+		a:focus {
+			color: black;
+		}
+
+		.blog-item-link a {
+			text-decoration: none;
+		}
+
+		.animate-child i.fa {
+			margin-left: .3rem;
+			font-size: .75em;
+		}
+
+		.animate-child:hover i.fa {
+			-webkit-animation: wrench 1.2s ease infinite;
+		  animation: wrench 1.2s ease infinite;
+		}
+
+		.post-date {
+			color: #C21A17;
+			margin-bottom: .5rem !important;
+		}
+
+		p:first-child {
+			margin-top: 0;
+		}
+
+/* Bio Page Specific */
+
+		.bio-container {
+			overflow: hidden;
+		}
+
+		.bio-toggle {
+			padding: .5rem 0;
+			-webkit-transition: color .7s, background-color .7s, box-shadow .3s ease-out;
+	    -moz-transition: color .7s, background-color .7s, box-shadow .3s ease-out;
+	    transition: color .7s, background-color .7s, box-shadow .3s ease-out;
+		}
+
+		.bio-toggle:not(.active):hover {
+			cursor: pointer;
+			box-shadow: 5px 0px 10px 0px #AAA;
+		}
+
+		.bio-toggle.active {
+			cursor: default;
+			color: white;
+		}
+
+		.bio-toggle.music.active {
+			background-color: #385DC2;
+		}
+
+		.bio-toggle.tech.active {
+			background-color: green;
+		}
+
+		.bio-img {
+			width: 40%;
+		}
+
+		.bio.animated {
+			-webkit-animation-duration: .4s;
+			-moz-animation-duration: .4s;
+  		animation-duration: .4s;
+		}
+
+/* Portfolio Page Specific */
+
+.portfolio-grid {
+	margin-top: 3rem;
 }
 
-.float-left {
-	float: left;
+.portfolio-grid .portfolio-figure {
+	padding: 1rem;
+	margin: 1rem 12.5% !important;
+	width: 75% !important;
+	transition: all .3s ease-in-out;
 }
 
-.float-right {
-	float: right;
-}
-
-.pad-left {
-	margin-left: 1rem;
-}
-
-.pad-right {
-	margin-right: 1rem;
-}
-
-.fixed-top-right {
-	position: fixed;
-	top: 0;
-	right: 0;
-}
-
-.contact-toggle {
-	padding: 1rem 1.25rem;
-	margin: .2rem;
-	border: 3px solid;
-	border-color: #DDD;
-}
-
-.contact-toggle:hover {
-	border-color: #AAA;
-}
-
-
-.no-decor {
-	list-style: none;
-	padding: 0;
-}
-
-.no-decor li {
-	padding: .25rem 0;
-}
-
-div#content {
-	padding-top: 1rem;
-}
-
-.pure-g .pure-gutter-1 > * {
-	margin: 1rem;
-}
-
-.pad-v-1 {
-	margin: 1rem 0;
-}
-
-.pad-h-1 {
-	margin: 0 1rem;
-}
-
-.clickable:hover {
-	cursor: pointer;
-}
-
-a.hidden-link {
-	color: inherit;
-	text-decoration: none;
-}
-
-a.hidden-link:visited
-a.hidden-link:hover,
-a.hidden-link:focus {
-	color: inherit;
-}
-
-a.active:link,
-a.active:visited,
-a.active:hover,
-a.active:active,
-a.active:focus {
-	background-color: #C21A17 !important;
-	color: #FFF !important;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active,
-a:focus {
-	color: black;
-}
-
-.bio-active {
-	color: white;
-	background-color: #385DC2;
-}
-
-.bio-container {
-	overflow: hidden;
-}
-
-.bio-img {
-	max-width: 40%;
-}
-
-.blog-item-link a {
-	text-decoration: none;
-}
-
-.animate-child i.fa {
-	margin-left: .3rem;
-	font-size: .75em;
-}
-
-.animate-child:hover i.fa {
-	-webkit-animation: wrench 1.2s ease infinite;
-  animation: wrench 1.2s ease infinite;	
-}
-
-.post-date {
-	color: #C21A17;
-}
-
-.portfolio-figure {
-	margin: 1rem auto !important;
-	text-align: center;
+.portfolio-figure:hover,
+.portfolio-figure:focus {
+	transform: scale(1.05);
+	-webkit-box-shadow: 0px 15px 100px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 15px 100px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 15px 100px 0px rgba(0,0,0,0.75);
 }
 
 .portfolio-figure img {
-	width: 50%;
+	width: 100%;
 	margin: auto;
-}
-
-.portfolio-figure figcaption {
-	font-size: 3rem;
 }
 
 .portfolio-figure a:link,
@@ -175,6 +259,21 @@ a:focus {
 	text-decoration: none;
 }
 
-.portfolio-desc {
+.portfolio .header-font,
+.portfolio-item-page .portfolio-desc {
 	text-align: center;
+}
+
+.portfolio .header-font {
+	font-size: 3rem;
+	margin-bottom: .5rem;
+}
+
+.portfolio-item-page [class *="portfolio-img"] {
+	width: 35%;
+	display: inline-block;
+}
+
+.portfolio p:first-child {
+	margin-bottom: 1rem;
 }

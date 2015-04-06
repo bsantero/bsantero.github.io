@@ -1,8 +1,32 @@
 ---
-title: Home
+title: About Brian
 layout: without-sidebar
 ---
 
-	<div class="pure-u-1 pure-gutter-1 text-center">
-		<p>Welcome to the site of Brian Santero, <a href="/about/">trombonist</a> and <a href="/portfolio/">technologist</a>. Come find out more about this class-leading musician and recent acolyte to the programming scene.</p>
+<div class="pure-g pure-gutter-1 loaded">
+	<div class="pure-u-1 pure-u-md-1-2 no-gutter">
+		<h2 class="text-center music bio-toggle animate-child" id="music-toggle" data-dest="music" data-hide="tech">
+			As Trombonist
+		</h2>
 	</div>
+	<div class="pure-u-1 pure-u-md-1-2 no-gutter">
+		<h2 class="text-center tech bio-toggle animate-child" id="tech-toggle" data-dest="tech" data-hide="music">
+			As Technologist
+		</h2>
+	</div>
+	<div class="pure-u-1 bio-container">
+		<div class="pure-u-1 bio music" id="music-bio" data-bio="music-bio">
+			{% capture include_to_textilize %}
+			{% include bio_music.md %}
+			{% endcapture %}
+			{{ include_to_textilize | textilize }}
+		</div>
+
+		<div class="pure-u-1 bio tech" id="tech-bio" data-bio="tech-bio">
+			{% capture include_to_textilize %}
+			{% include bio_tech.md %}
+			{% endcapture %}
+			{{ include_to_textilize | textilize }}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,12 @@
+---
+title: Duckchase
+layout: without-sidebar
+---
+
+<div class="pure-u-1 portfolio portfolio-item-page" id="content">
+  <h1 class="header-font text-center">{{page.title}}</h1>
+	<div class="pure-u-1 pure-gutter-1">
+    {% capture my_include %}{% include duckchase.md %}{% endcapture %}
+{{ my_include | markdownify }}
+	</div>
+</div>
