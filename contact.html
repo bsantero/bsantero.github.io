@@ -1,17 +1,44 @@
 ---
 title: Contact
 layout: without-sidebar
+back-text: Welcome to the worst looking page on the site! Let's go somewhere better..
+back-link: /portfolio/
+forward-text: Here's a free trip to the moon! Or a link to my blahg. It's completely random.
 ---
 
-<form action="https://getsimpleform.com/messages?form_api_token=8fe3f0bce4d48b58cb7a19c033eefdfc" method="post">
+<form class="contact" action="https://getsimpleform.com/messages?form_api_token=8fe3f0bce4d48b58cb7a19c033eefdfc" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='localhost:4000/index.html' />
   <!-- all your input fields here.... -->
-  <label for="name">Name:</label>
-  <input type='text' name='Name' /><br />
-  <label for="email">Email:</label>
-  <input type='text' name='email' /><br />
-  <label for="content">Message:</label>
-  <textarea name="content" rows=2 cols=50></textarea><br />
-  <input type='submit' value='Submit' />
+  <table>
+    <tr>
+      <td class="form-label">
+        <label for="name">Name</label>
+      </td>
+      <td class="form-field">
+        <input type='text' name='Name' />
+      </td>
+    </tr>
+    <tr>
+      <td class="form-label">
+        <label for="email">Email</label>
+      </td>
+      <td class="form-field">
+        <input type='text' name='email' />
+      </td>
+    </tr>
+    <tr>
+      <td class="form-label">
+        <label for="content">Message</label>
+      </td>
+      <td class="form-field">
+        <textarea name="content" rows=3></textarea><br />
+      </td>
+    </tr>
+    <tr class="submit">
+      <td>
+        <input type='submit' value='Send it!' />
+      </td>
+    </tr>
+</table>
 </form>
