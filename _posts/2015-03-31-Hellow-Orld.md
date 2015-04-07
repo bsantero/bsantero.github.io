@@ -1,6 +1,8 @@
 ---
 title: Hellow Orld
 layout: blahg-post
+categories: tech
+published: true
 ---
 
 Yet another Hello World for my [blahg](/blahg/). I've lost track of how many blahgs I've started, but I swear, this one is the best!
