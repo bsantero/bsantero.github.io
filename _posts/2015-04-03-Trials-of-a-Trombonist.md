@@ -3,6 +3,7 @@ title: Trials of a Trombonist
 layout: blahg-post
 categories: trombone music
 published: true
+comments: true
 ---
 
 Every day is about making yourself better, right? I should be Brian v1.9.9.2.3 and tomorrow I'll be .4, then .5... I've considered this to be a falsism.

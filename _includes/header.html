@@ -14,13 +14,14 @@
 
 {% assign current = page.url | downcase | split: '/' %}
 
-<span class="fixed-top-right">
-	<a href="/contact/">
-		<i class="fa fa-envelope contact-toggle clickable{% if current[1] == 'contact' %} active{% endif %}"></i>
-	</a>
-</span>
 
-<div class="pure-g">
+
+<div class="pure-g body-container">
+	<span class="fixed-top-right">
+		<a href="/contact/">
+			<i class="fa fa-envelope contact-toggle clickable{% if current[1] == 'contact' %} active{% endif %}"></i>
+		</a>
+	</span>
 	<div class="pure-u-1"><h1 class="site-title">Brian Santero<h1></div>
 	<nav class="pure-u-1 pure-menu pure-menu-horizontal text-center">
 		{% assign pages = site.pages | sort:"weight"  %}
